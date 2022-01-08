@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "247237404347",
+    "project_id": "pcplay-ef0b6",
+    "storage_bucket": "pcplay-ef0b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:247237404347:android:565339f789196b754b2b9e",
+        "android_client_info": {
+          "package_name": "com.example.pcplay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "247237404347-20i2coebjpbf28182q0224c3fmte3tob.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pcplay",
+            "certificate_hash": "bb7746e129b8ab412e77aee259d0ba06e284a2a5"
+          }
+        },
+        {
+          "client_id": "247237404347-02de5f5tjt4h10ho2chej89744cic1sm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLqwqxacLP5wCW-FejyGQPjjBIoZylO_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "247237404347-02de5f5tjt4h10ho2chej89744cic1sm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

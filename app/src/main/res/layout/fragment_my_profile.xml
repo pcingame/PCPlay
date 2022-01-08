@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:gravity="center">
+
+    <!-- TODO: Update blank fragment layout -->
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/img_avatar_profile"
+        android:src="@drawable/ic_avatar_default"
+        >
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+    <EditText
+        android:layout_marginTop="30dp"
+        android:id="@+id/edt_full_name"
+        android:padding="10dp"
+        android:hint="Tên người dùng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/edt_email_profile"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btn_update_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cập nhật hồ sơ"
+        android:layout_marginTop="30dp">
+
+    </Button>
+
+</LinearLayout>
