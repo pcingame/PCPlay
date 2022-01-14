@@ -21,4 +21,5 @@
     <string name="nav_drawer_close">Close navigation drawer</string>
     <string name="forget_password">Quên mật khẩu</string>
     <string name="forget_password_detail">Vui lòng nhập tài khoản email của bạn bên dưới</string>
+    <string name="feature_movies">Phim đặc sắc</string>
 </resources>

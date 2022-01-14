@@ -22,6 +22,7 @@ import android.provider.MediaStore;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
@@ -31,6 +32,7 @@ import com.example.pcplay.Fragment.HomeFragment;
 import com.example.pcplay.Fragment.MyProfileFragment;
 import com.example.pcplay.R;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.bottomsheet.BottomSheetBehavior;
 import com.google.android.material.navigation.NavigationBarView;
 import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.auth.FirebaseAuth;
@@ -53,6 +55,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private BottomNavigationView mBottomNavigationView;
     private ImageView imgAvatar;
     private TextView tvName, tvEmail;
+   // private LinearLayout layoutBottomSheet;
+    //private BottomSheetBehavior bottomSheetBehavior;
 
     final public MyProfileFragment mMyProfileFragment = new MyProfileFragment();
     final public ActivityResultLauncher<Intent> mActivityResultLauncher = registerForActivityResult(
@@ -124,6 +128,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         tvName = navigationView.getHeaderView(0).findViewById(R.id.tv_name);
         tvEmail = navigationView.getHeaderView(0).findViewById(R.id.tv_email);
         imgAvatar = navigationView.getHeaderView(0).findViewById(R.id.img_avatar);
+       // layoutBottomSheet = findViewById(R.id.layout_bottom_sheet);
+       // bottomSheetBehavior = BottomSheetBehavior.from(layoutBottomSheet);
     }
 
     @Override
@@ -144,6 +150,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             // startActivity(new Intent(MainActivity.this, RealtimeDbActivity.class));
 
         }else if(id == R.id.nav_sign_out){
+           /* if(bottomSheetBehavior.getState() != BottomSheetBehavior.STATE_EXPANDED){
+                bottomSheetBehavior.setState(BottomSheetBehavior.STATE_EXPANDED);
+            }else {
+                bottomSheetBehavior.setState(BottomSheetBehavior.STATE_COLLAPSED);
+            }*/
             FirebaseAuth.getInstance().signOut();
             startActivity(new Intent(this, SignInActivity.class));
             finish();

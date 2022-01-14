@@ -50,6 +50,7 @@ dependencies {
     implementation platform('com.google.firebase:firebase-bom:29.0.3')
     implementation 'com.google.firebase:firebase-analytics'
     implementation 'com.google.firebase:firebase-auth'
+    implementation 'com.google.firebase:firebase-database'
     //cycle imageview
     implementation 'de.hdodenhof:circleimageview:3.1.0'
     //glide load image from url
@@ -59,6 +60,8 @@ dependencies {
     implementation 'me.relex:circleindicator:2.1.6'
     //slider
     implementation 'com.github.smarteist:autoimageslider:1.4.0'
+    //bottom sheet
+    implementation 'com.google.android.material:material:1.2.1'
 
 
 }
