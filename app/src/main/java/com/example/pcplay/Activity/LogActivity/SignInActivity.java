@@ -1,4 +1,4 @@
-package com.example.pcplay.Activity;
+package com.example.pcplay.Activity.LogActivity;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -13,6 +13,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.pcplay.Activity.MainActivity;
 import com.example.pcplay.Fragment.MyProfileFragment;
 import com.example.pcplay.R;
 import com.google.android.gms.tasks.OnCompleteListener;

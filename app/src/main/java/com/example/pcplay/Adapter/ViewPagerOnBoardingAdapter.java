@@ -5,9 +5,9 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentStatePagerAdapter;
 
-import com.example.pcplay.Fragment.OnBoardingFragment1;
-import com.example.pcplay.Fragment.OnBoardingFragment2;
-import com.example.pcplay.Fragment.OnBoardingFragment3;
+import com.example.pcplay.Fragment.OnBoarding.OnBoardingFragment1;
+import com.example.pcplay.Fragment.OnBoarding.OnBoardingFragment2;
+import com.example.pcplay.Fragment.OnBoarding.OnBoardingFragment3;
 
 public class ViewPagerOnBoardingAdapter extends FragmentStatePagerAdapter {
     public ViewPagerOnBoardingAdapter(@NonNull FragmentManager fm, int behavior) {

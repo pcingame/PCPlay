@@ -62,6 +62,8 @@ dependencies {
     implementation 'com.github.smarteist:autoimageslider:1.4.0'
     //bottom sheet
     implementation 'com.google.android.material:material:1.2.1'
+    //exoplayer
+    implementation 'com.google.android.exoplayer:exoplayer:2.11.7'
 
 
 }

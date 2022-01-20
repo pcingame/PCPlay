@@ -1,27 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.pcplay">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/logo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.PCPlay">
         <activity
+            android:name=".Activity.DetailsActivity"
+            android:exported="false" />
+        <activity
             android:name=".Activity.PlayerActivity"
+            android:exported="false"
+            android:resizeableActivity="true"
+            android:screenOrientation="landscape"
+            android:supportsPictureInPicture="true"
+            android:theme="@style/Theme.AppCompat.FullScreen"
+            tools:targetApi="n" />
+        <activity
+            android:name=".Activity.LogActivity.ForgetPasswordActivity"
             android:exported="false" />
         <activity
-            android:name=".Activity.ForgetPasswordActivity"
+            android:name=".Activity.LogActivity.SignUpActivity"
             android:exported="false" />
         <activity
-            android:name=".Activity.SignUpActivity"
-            android:exported="false" />
-        <activity
-            android:name=".Activity.SignInActivity"
+            android:name=".Activity.LogActivity.SignInActivity"
             android:exported="false" />
         <activity
             android:name=".Activity.OnBoardingActivity"

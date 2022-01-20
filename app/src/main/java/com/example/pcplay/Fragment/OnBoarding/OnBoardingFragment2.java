@@ -1,4 +1,4 @@
-package com.example.pcplay.Fragment;
+package com.example.pcplay.Fragment.OnBoarding;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

@@ -1,4 +1,4 @@
-package com.example.pcplay.Activity;
+package com.example.pcplay.Activity.LogActivity;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;

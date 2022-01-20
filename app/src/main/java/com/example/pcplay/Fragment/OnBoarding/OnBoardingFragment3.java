@@ -1,4 +1,4 @@
-package com.example.pcplay.Fragment;
+package com.example.pcplay.Fragment.OnBoarding;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,8 +9,7 @@ import android.widget.Button;
 
 import androidx.fragment.app.Fragment;
 
-import com.example.pcplay.Activity.MainActivity;
-import com.example.pcplay.Activity.SignInActivity;
+import com.example.pcplay.Activity.LogActivity.SignInActivity;
 import com.example.pcplay.R;
 
 public class OnBoardingFragment3 extends Fragment {
